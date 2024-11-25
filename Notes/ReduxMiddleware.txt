@@ -1,0 +1,5 @@
+Redux middleware is a code that intercepts actions coming into the store via the dispatch() method.
+
+Redux-Thunk middleware allows you to dispatch special functions, called thunks.
+
+A Thunk is a function, which optionally can take some parameters abd return another function. The inner function take a dispatch and getData function and both will be supplied by the Redux Thunk Middleware.
